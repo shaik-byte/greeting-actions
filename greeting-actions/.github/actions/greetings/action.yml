@@ -1,0 +1,17 @@
+name: Greeting Composite Action
+description: Prints greeting messages
+
+runs:
+  using: composite
+  steps:
+    - run: echo "Hi"
+      shell: bash
+
+    - run: echo "Hello"
+      shell: bash
+
+    - run: echo "How are you"
+      shell: bash
+
+    - run: echo "Have a great time"
+      shell: bash
